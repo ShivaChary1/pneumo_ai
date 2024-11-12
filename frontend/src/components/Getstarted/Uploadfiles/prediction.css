@@ -1,0 +1,36 @@
+.pred_outer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.result{
+    width: 75vw;
+    height: 75vh;
+    margin-left: 5rem;
+}
+
+.hcard_div{
+    position: relative;
+    top: -75%;
+}
+
+.res_data{
+    position: relative;
+    top: 5rem;
+    z-index: 40;
+    text-align: center;
+    margin-right: 2rem;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+.res_anima{
+    position: relative;
+    top: 8rem;
+    margin-top: 2rem;
+    z-index: 40;
+    height: 70%;
+}

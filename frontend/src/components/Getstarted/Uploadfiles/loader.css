@@ -1,0 +1,14 @@
+.loader{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.load_lottie{
+    width: 40vw;
+}
+.loading{
+    position: absolute;
+}

@@ -1,0 +1,88 @@
+.e-card {
+  margin-left: 115px; /* Adjusted margin */
+  background: transparent;
+  box-shadow: 0px 8px 28px -9px rgba(0, 0, 0, 0.45);
+  position: relative;
+  width: 720px; /* Adjusted width (3 times the original) */
+  height: 500px; /* Adjusted height (less than 3 times the original to form a rectangle) */
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.wave {
+  position: absolute;
+  width: 1620px; /* Adjusted width */
+  height: 2100px; /* Adjusted height */
+  opacity: 0.6;
+  left: 0;
+  top: 0;
+  margin-left: -50%; /* Adjusted margin */
+  margin-top: -70%; /* Adjusted margin */
+  background: linear-gradient(744deg, #af40ff, #5b42f3 60%, #00ddeb);
+}
+
+.icon {
+  width: 9em; /* Adjusted size */
+  margin-top: -3em; /* Adjusted margin */
+  padding-bottom: 3em; /* Adjusted padding */
+}
+
+.infotop {
+  text-align: center;
+  font-size: 60px; /* Adjusted font size */
+  position: absolute;
+  top: 16.8em; /* Adjusted position */
+  left: 0;
+  right: 0;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+}
+
+.name {
+  font-size: 42px; /* Adjusted font size */
+  font-weight: 100;
+  position: relative;
+  top: 3em; /* Adjusted position */
+  text-transform: lowercase;
+}
+
+.wave:nth-child(2),
+.wave:nth-child(3) {
+  top: 630px; /* Adjusted position */
+}
+
+.playing .wave {
+  border-radius: 40%;
+  animation: wave 10000ms infinite linear; /* Slower animation */
+}
+
+.wave {
+  border-radius: 40%;
+  animation: wave 180s infinite linear; /* Slower animation */
+}
+
+.playing .wave:nth-child(2) {
+  animation-duration: 13000ms; /* Slower animation */
+}
+
+.wave:nth-child(2) {
+  animation-duration: 150s; /* Slower animation */
+}
+
+.playing .wave:nth-child(3) {
+  animation-duration: 16000ms; /* Slower animation */
+}
+
+.wave:nth-child(3) {
+  animation-duration: 135s; /* Slower animation */
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
