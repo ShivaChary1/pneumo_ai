@@ -47,18 +47,13 @@ This web application uses deep learning to detect pneumonia from chest X-ray ima
 1. **Clone the Repository**:
     ```bash
     git clone https://github.com/yourusername/pneumonia-detection-app.git
-    cd pneumonia-detection-app
+    cd pneumo_ai
     ```
 
 2. **Backend Setup**:
    - Navigate to the `backend` folder:
      ```bash
      cd backend
-     ```
-   - Set up a virtual environment:
-     ```bash
-     python -m venv venv
-     source venv/bin/activate  # On Windows use `venv\Scripts\activate`
      ```
    - Install the dependencies:
      ```bash
