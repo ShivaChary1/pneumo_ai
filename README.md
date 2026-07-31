@@ -46,7 +46,7 @@ This web application uses deep learning to detect pneumonia from chest X-ray ima
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/yourusername/pneumonia-detection-app.git
+    git clone https://github.com/ShivaChary1/pneumo_ai.git
     cd pneumo_ai
     ```
 
