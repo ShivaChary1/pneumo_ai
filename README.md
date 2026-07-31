@@ -59,7 +59,7 @@ This web application uses deep learning to detect pneumonia from chest X-ray ima
      ```bash
      py -3.11 -m venv myenv
      ```
-    - Activate Virtual Environment:
+   - Activate Virtual Environment:
      ```bash
      myenv\Scripts\activate
      ```
