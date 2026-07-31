@@ -55,13 +55,21 @@ This web application uses deep learning to detect pneumonia from chest X-ray ima
      ```bash
      cd backend
      ```
+   - Create Virtual Environment, only with `Python version 3.10 or 3.11`:
+     ```bash
+     py -3.11 -m venv myenv
+     ```
+    - Activate Virtual Environment:
+     ```bash
+     myenv\Scripts\activate
+     ```
    - Install the dependencies:
      ```bash
      pip install -r requirements.txt
      ```
    - Run the Flask server:
      ```bash
-     flask run
+     flask --app server run --debug
      ```
 
 3. **Frontend Setup**:
@@ -75,7 +83,7 @@ This web application uses deep learning to detect pneumonia from chest X-ray ima
      ```
    - Start the React app:
      ```bash
-     npm start
+     npm run dev
      ```
 
 4. **Environment Variables**:
