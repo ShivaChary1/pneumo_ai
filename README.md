@@ -49,7 +49,7 @@ This web application uses deep learning to detect pneumonia from chest X-ray ima
     git clone https://github.com/ShivaChary1/pneumo_ai.git
     cd pneumo_ai
     ```
-
+    -Open two seperate terminals one for backend and one for frontend
 2. **Backend Setup**:
    - Navigate to the `backend` folder:
      ```bash
